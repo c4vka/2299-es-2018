@@ -1,9 +1,9 @@
 # Ugrađeni računarski sistemi (2299)
 ## Osnovna uputstva
-U `home` direktorijumu napraviti novi direktorijum sa nazivom `urs-2018`, a zatim preuzeti materijale za izradu testa korišćenjem `git` komandi:
+Najprije treba provjeriti da li je u sistemu instaliran `git`, izvršavanjem komande `git --version`. Ako nije, potrebno ga je instalirati komandom `sudo apt-get install git`. Nakon toga, u `home` direktorijumu napraviti novi direktorijum sa nazivom `urs-2018`, preći u ovaj direktorijum i preuzeti materijale za izradu testa korišćenjem `git` komande:
 
 ```
-git clone https://github.com/knezicm/2299-es-2018
+git clone https://github.com/knezicm/2299-es-2018 .
 ```
 
 pri prvom pristupu (kada je neophodno klonirati udaljeni repozitorijum), odnosno:
@@ -12,9 +12,9 @@ pri prvom pristupu (kada je neophodno klonirati udaljeni repozitorijum), odnosno
 git pull origin master
 ```
 
-pri svakom narednom pristupu (da se ažurira stanje već kloniranog repozitorijuma).
+pri svakom narednom pristupu (ako se ažurira stanje već kloniranog repozitorijuma).
 
-U ostatku teksta, pretpostavljaćemo da se relevantan sadržaj nalazi u direktroijumu `~/urs-2018/labs/`. Nakon svake promjene, student treba da pozove predmetnog asistenta da verifikuje ispravnost svake urađene stavke zadatka. Svaki zadatak predstavlja jednu cjelinu i nosi 20% bodova, u zavisnosti od toga koliko stavki je ispravno realizovano unutar zadatka.
+U ostatku teksta, pretpostavljaćemo da se relevantan sadržaj nalazi u direktorijumu `~/urs-2018/labs/`. Nakon svake promjene, student treba da pozove predmetnog asistenta da verifikuje ispravnost svake urađene stavke zadatka. Svaki zadatak predstavlja jednu cjelinu i nosi 20% bodova, u zavisnosti od toga koliko stavki je ispravno realizovano unutar zadatka.
 
 ## Zadatak 1: Osnovne Linux komande
 Pređite u direktorijum `~/urs-2018/labs/files/`.
