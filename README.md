@@ -3,7 +3,7 @@
 Najprije treba provjeriti da li je u sistemu instaliran `git`, izvršavanjem komande `git --version`. Ako nije, potrebno ga je instalirati komandom `sudo apt-get install git`. Nakon toga, u `home` direktorijumu napraviti novi direktorijum sa nazivom `urs-2018`, preći u ovaj direktorijum i preuzeti materijale za izradu testa korišćenjem `git` komande:
 
 ```
-git clone https://github.com/knezicm/2299-es-2018 .
+git clone https://github.com/c4vka/2299-es-2018 .
 ```
 
 pri prvom pristupu (kada je neophodno klonirati udaljeni repozitorijum), odnosno:
@@ -56,14 +56,7 @@ Pređite u direktorijum `~/urs-2018/labs/intro/text/`. Ukoliko već nije, instal
 6. Obrišite liniju 32 korišćenjem samo jedne komande.
 7. Obrišite linije u opsegu od 36 do zaključno sa 40 korišćenjem samo jedne komande.
 
-## Zadatak 4: Rad sa SSH
-Pređite u direktorijum `~/urs-2018/labs/intro/ssh/`. Ukoliko već nije, instalirajte SSH server (pakovanje `openssh-server`).
-
-1. Napravite novi korisnički nalog sa proizvoljno odabranim korisničkim imenom (korišćenjem komande `adduser`). Povežite se SSH klijentom sa SSH serverom korišćenjem korisničkog naloga koji je napravio neki od studenata. Pokrenite proizvoljne komande na udaljenom terminalu kako bi testirali vezu.
-2. Pomoću komande `ssh-keygen -t dsa` napravite privatni/javni par ključeva, a zatim prenesite javni ključ kolegi na udaljenom hostu sa čijim SSH serverom ste se povezivali u prethodoj tački (koristiti komandu `ssh-copy-id`). Testirajte vezu nakon što ste uveli sigurnosnu zaštitu na prethodno opisani način.
-3. Provjerite da li je u sistemu pokrenut SSH agent (potražite proces sa nazivom `ssh-agent` u listi trenutno pokrenutih procesa). Komandom `ssh-add` prenesite *passphrase* SSH agentu i osigurajte da možete da se ulogujete na udaljeni host bez unosa bilo kakve pristupne šifre.
-
-## Zadatak 5: Razvoj Linux aplikacija
+## Zadatak 4: Razvoj Linux aplikacija
 Pređite u direktorijum `~/urs-2018/labs/intro/appdev/`.
 
 1. Napišite jednostavnu *Hello World* aplikaciju u okviru `hello-world.c` fajla korišćenjem bilo kojeg editora teksta. Kompajlirajte ovu aplikaciju GCC kompajlerom (osigurajte da je kompajler instaliran) i pokrenite njeno izvršavanje. U slučaju pojave bilo kakvih sintaksnih i semantičkih grešaka, otklonite greške i pokrenite proces kompajliranja ponovo.
