@@ -3,7 +3,7 @@
 Najprije treba provjeriti da li je u sistemu instaliran `git`, izvršavanjem komande `git --version`. Ako nije, potrebno ga je instalirati komandom `sudo apt-get install git`. Nakon toga, u `home` direktorijumu napraviti novi direktorijum sa nazivom `urs-2018`, preći u ovaj direktorijum i preuzeti materijale za izradu testa korišćenjem `git` komande:
 
 ```
-git clone https://github.com/c4vka/2299-es-2018 .
+git clone https://github.com/c4vka/2299-es-2018.git .
 ```
 
 pri prvom pristupu (kada je neophodno klonirati udaljeni repozitorijum), odnosno:
@@ -14,7 +14,7 @@ git pull origin master
 
 pri svakom narednom pristupu (ako se ažurira stanje već kloniranog repozitorijuma).
 
-U ostatku teksta, pretpostavljaćemo da se relevantan sadržaj nalazi u direktorijumu `~/urs-2018/labs/`. Nakon svake promjene, student treba da pozove predmetnog asistenta da verifikuje ispravnost svake urađene stavke zadatka. Svaki zadatak predstavlja jednu cjelinu i nosi 20% bodova, u zavisnosti od toga koliko stavki je ispravno realizovano unutar zadatka.
+U ostatku teksta, pretpostavljaćemo da se relevantan sadržaj nalazi u direktorijumu `~/urs-2018/labs/`. Nakon svake promjene, student treba da pozove predmetnog asistenta da verifikuje ispravnost svake urađene stavke zadatka. Svaki zadatak predstavlja jednu cjelinu i nosi 25% bodova, u zavisnosti od toga koliko stavki je ispravno realizovano unutar zadatka.
 
 ## Zadatak 1: Osnovne Linux komande
 Pređite u direktorijum `~/urs-2018/labs/files/`.
@@ -48,7 +48,7 @@ Pređite u direktorijum `~/urs-2018/labs/intro/commands/`.
 ## Zadatak 3: Rad sa editorom teksta
 Pređite u direktorijum `~/urs-2018/labs/intro/text/`. Ukoliko već nije, instalirajte `vim` editor korišćenjem komande `sudo apt-get install vim`.
 
-1. Otvorite `declarations.h` fajl `vim` editorom i postavite kursor na početak prve linije teksta. Pređite u *insertion mode* i dodajte `/*` sekvencu karaktera na početku linije. Napustite *insertion mode* i premjsetite kursor na kraj linije korišćenjem jedne komande u okviru *command mode* (nije dozvoljeno koristiti pomjeranje kursora krakter po karakter). Na kraju linije unesite razmak i `*/` sekvencu karaktera.
+1. Otvorite `declarations.h` fajl `vim` editorom i postavite kursor na početak prve linije teksta. Pređite u *insertion mode* i dodajte `/*` sekvencu karaktera na početku linije. Napustite *insertion mode* i premjsetite kursor na kraj linije korišćenjem jedne komande u okviru *command mode* (nije dozvoljeno koristiti pomjeranje kursora karakter po karakter). Na kraju linije unesite razmak i `*/` sekvencu karaktera.
 2. Premjestite kursor ponovo na početak linije korišćenjem jedne komande u okviru *command mode* (nije dozvoljeno koristiti pomjeranje kursora krakter po karakter). Kao novu prvu liniju unesite `long horn;`.
 3. Sačuvajte napravljene izmjene i izađite iz editora.
 4. Otvorite `pastacode.txt` fajl `vim` editorom. Korišćenjem odgovarajuće komande, postavite kursor na mjesto gdje se prvi put pojavljuje riječ `code`. Pomjerajte se kroz fajl tražeći mjesta na kojima se nalazi ista riječ, sve dok ne dođete do kraja fajla. Na sličan način, u povratnom smjeru (od kraja prema početku fajla), krećite se kroz fajl, ovaj put tražeći riječ `software`.
