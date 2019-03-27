@@ -1,6 +1,6 @@
 # Ugrađeni računarski sistemi (2299)
 ## Osnovna uputstva
-Najprije treba provjeriti da li je u sistemu instaliran `git`, izvršavanjem komande `git --version`. Ako nije, potrebno ga je instalirati komandom `sudo apt-get install git`. Nakon toga, u `home` direktorijumu napraviti novi direktorijum sa nazivom `urs-2018`, preći u ovaj direktorijum i preuzeti materijale za izradu testa korišćenjem `git` komande:
+Najprije treba provjeriti da li je u sistemu instaliran `git`, izvršavanjem komande `git --version`. Ako nije, potrebno ga je instalirati komandom `sudo apt-get install git`. Nakon toga, u `home` direktorijumu napraviti novi direktorijum sa nazivom `urs-2019`, preći u ovaj direktorijum i preuzeti materijale za izradu testa korišćenjem `git` komande:
 
 ```
 git clone https://github.com/c4vka/2299-es-2019.git .
@@ -14,10 +14,10 @@ git pull origin master
 
 pri svakom narednom pristupu (ako se ažurira stanje već kloniranog repozitorijuma).
 
-U ostatku teksta, pretpostavljaćemo da se relevantan sadržaj nalazi u direktorijumu `~/urs-2018/labs/`. Nakon svake promjene, student treba da pozove predmetnog asistenta da verifikuje ispravnost svake urađene stavke zadatka. Svaki zadatak predstavlja jednu cjelinu i nosi 25% bodova, u zavisnosti od toga koliko stavki je ispravno realizovano unutar zadatka.
+U ostatku teksta, pretpostavljaćemo da se relevantan sadržaj nalazi u direktorijumu `~/urs-2019/labs/`. Nakon svake promjene, student treba da pozove predmetnog asistenta da verifikuje ispravnost svake urađene stavke zadatka. Svaki zadatak predstavlja jednu cjelinu i nosi 25% bodova, te student dobija dio bodova u zavisnosti od toga koliko stavki je ispravno realizovano unutar zadatka.
 
 ## Zadatak 1: Osnovne Linux komande
-Pređite u direktorijum `~/urs-2018/labs/files/`.
+Pređite u direktorijum `~/urs-2019/labs/files/`.
 
 1. Izlistajte fajlove koji se nalaze u direktorijumu. Koliko se fajlova i direktorijuma nalazi u njemu? Koji fajlovi su skriveni?
 2. Izlistajte fajlove u direktorijumu ponovo, ali tako da budu sortirani po vremenu kreiranja: prvo najstariji, a najranije kreirani na kraju liste.
@@ -36,7 +36,7 @@ Pređite u direktorijum `~/urs-2018/labs/files/`.
 15. Pređite u direktorijum `safe`, a zatim obrišite `-o` fajl.
 
 ## Zadatak 2: Napredne Linux komande
-Pređite u direktorijum `~/urs-2018/labs/intro/commands/`.
+Pređite u direktorijum `~/urs-2019/labs/intro/commands/`.
 
 1. Izlistajte istoriju svih trenutno korišćenih komandi i sačuvajte je u fajl `history.txt` jednom komandom.
 2. Spojite sve fajlove u direktorijumu `sardar/` u jedan tekstualni fajl sa nazivom `sardar_power.txt` bez izlaska iz trenutnog direktorijuma. Koliko linija, riječi i karaktera sadrži ovaj novokreirani fajl?
@@ -46,7 +46,7 @@ Pređite u direktorijum `~/urs-2018/labs/intro/commands/`.
 6. Modifikujte komandu iz prethodne tačke tako da prebrojite linije koje sadrže riječi `santa` i `singh` ali ne i riječ `banta`.
 
 ## Zadatak 3: Rad sa editorom teksta
-Pređite u direktorijum `~/urs-2018/labs/intro/text/`. Ukoliko već nije, instalirajte `vim` editor korišćenjem komande `sudo apt-get install vim`.
+Pređite u direktorijum `~/urs-2019/labs/intro/text/`. Ukoliko već nije, instalirajte `vim` editor korišćenjem komande `sudo apt-get install vim`.
 
 1. Otvorite `declarations.h` fajl `vim` editorom i postavite kursor na početak prve linije teksta. Pređite u *insertion mode* i dodajte `/*` sekvencu karaktera na početku linije. Napustite *insertion mode* i premjsetite kursor na kraj linije korišćenjem jedne komande u okviru *command mode* (nije dozvoljeno koristiti pomjeranje kursora karakter po karakter). Na kraju linije unesite razmak i `*/` sekvencu karaktera.
 2. Premjestite kursor ponovo na početak linije korišćenjem jedne komande u okviru *command mode* (nije dozvoljeno koristiti pomjeranje kursora krakter po karakter). Kao novu prvu liniju unesite `long horn;`.
@@ -57,7 +57,7 @@ Pređite u direktorijum `~/urs-2018/labs/intro/text/`. Ukoliko već nije, instal
 7. Obrišite linije u opsegu od 36 do zaključno sa 40 korišćenjem samo jedne komande.
 
 ## Zadatak 4: Razvoj Linux aplikacija
-Pređite u direktorijum `~/urs-2018/labs/intro/appdev/`.
+Pređite u direktorijum `~/urs-2019/labs/intro/appdev/`.
 
 1. Napišite jednostavnu *Hello World* aplikaciju u okviru `hello-world.c` fajla korišćenjem bilo kojeg editora teksta. Kompajlirajte ovu aplikaciju GCC kompajlerom (osigurajte da je kompajler instaliran) i pokrenite njeno izvršavanje. U slučaju pojave bilo kakvih sintaksnih i semantičkih grešaka, otklonite greške i pokrenite proces kompajliranja ponovo.
 2. Funkcionalnost prethodne aplikacije podijelite u dva fajla: `main()` funkcija, koja poziva funkciju `hello_world()`, treba da se nalazi u fajlu `file1.c`, a funkcija `hello_world()`, koja prikazuje string *Hello World* na terminalu, treba da se nalazi u fajlu `file2.c`. Napravite jednostavan `Makefile` za ovako konceptualno opisan projekat, a zatim kompajlirajte čitav projekat pomoću `make` alatke. Vodite računa da se kompajlira samo onaj fajl koji je modifikovan (testirati unosom nekih promjena i ponovnim pokretanjem `make` alatke), kao i da postoji ciljno pravilo `clean` u okviru `Makefile` fajla.
