@@ -3,7 +3,7 @@
 Najprije treba provjeriti da li je u sistemu instaliran `git`, izvršavanjem komande `git --version`. Ako nije, potrebno ga je instalirati komandom `sudo apt-get install git`. Nakon toga, u `home` direktorijumu napraviti novi direktorijum sa nazivom `urs-2018`, preći u ovaj direktorijum i preuzeti materijale za izradu testa korišćenjem `git` komande:
 
 ```
-git clone https://github.com/c4vka/2299-es-2018.git .
+git clone https://github.com/c4vka/2299-es-2019.git .
 ```
 
 pri prvom pristupu (kada je neophodno klonirati udaljeni repozitorijum), odnosno:
