@@ -30,7 +30,7 @@ Pređite u direktorijum `~/urs-2019/labs/files/`.
 9. Vratite se u prethodni direktorijumi obrišite `Microsoft`.
 10. Napravite direktorijum `archives` i kopirajte sve fajlove iz trenutnog u prethodno kreirani direktorijum, uključujući direktorijum `sardar/` i sve fajlove koje on sadrži.
 11. Napravite simboličke linkove za sve fajlove koji se nalaze u `sardar/` direktorijumu. Simbolički linkovi treba da se nalaze u trenutnom folderu.
-12. Izlistajte sve fajlove u trenutnom folderu. Na koji način se mogu identifikovati simbolički linkovi? Obrišite fajl `sardar/sardar3.txt`, a zatim ponovo izlistajte fajlove unutar trenutnog foldera. Da li se i šta promijenilo?
+12. Izlistajte sve fajlove u trenutnom folderu. Na koji način se mogu identifikovati simbolički linkovi? Obrišite fajl `sardar/sardar2.txt`, a zatim ponovo izlistajte fajlove unutar trenutnog foldera. Da li se i šta promijenilo?
 13. Obrišite fajl `sardar/sardar1.txt`.
 14. Izlistajte pristupna prava za sve fajlove i direktorijume koji se nalaze u trenutnom direktorijumu.
 15. Pređite u direktorijum `safe`, a zatim obrišite `-o` fajl.
@@ -40,21 +40,21 @@ Pređite u direktorijum `~/urs-2019/labs/intro/commands/`.
 
 1. Izlistajte istoriju svih trenutno korišćenih komandi i sačuvajte je u fajl `history.txt` jednom komandom.
 2. Spojite sve fajlove u direktorijumu `sardar/` u jedan tekstualni fajl sa nazivom `sardar_power.txt` bez izlaska iz trenutnog direktorijuma. Koliko linija, riječi i karaktera sadrži ovaj novokreirani fajl?
-3. Prikažite sve linije u fajlu `sardar_power.txt` koje sadrže riječ `singh` (sve kombinacije malih i velikih slova, tj. *case insensitive*), a zatim obrišite ovaj fajl.
+3. Prikažite sve linije u fajlu `sardar_power.txt` koje sadrže riječ `singh` (sve kombinacije malih i velikih slova, tj. *case insensitive*).
 4. Ponovite ispisivanje iz prethodne tačke korišćenjem samo jedne komandne linije (uz upotrebu cjevovoda, tj. *pipes*).
 5. Pomoću jedne komandne linije prebrojte koliko ima linija koji zadovoljavaju uslov iz prethodne tačke.
-6. Modifikujte komandu iz prethodne tačke tako da prebrojite linije koje sadrže riječi `santa` i `singh` ali ne i riječ `banta`.
+6. Modifikujte komandu iz prethodne tačke tako da prebrojite linije koje sadrže riječi `santa` i `singh` ali ne i riječ `banta`, a zatim obrišite ovaj fajl.
 
 ## Zadatak 3: Rad sa editorom teksta
 Pređite u direktorijum `~/urs-2019/labs/intro/text/`. Ukoliko već nije, instalirajte `vim` editor korišćenjem komande `sudo apt-get install vim`.
 
-1. Otvorite `declarations.h` fajl `vim` editorom i postavite kursor na početak prve linije teksta. Pređite u *insertion mode* i dodajte `/*` sekvencu karaktera na početku linije. Napustite *insertion mode* i premjsetite kursor na kraj linije korišćenjem jedne komande u okviru *command mode* (nije dozvoljeno koristiti pomjeranje kursora karakter po karakter). Na kraju linije unesite razmak i `*/` sekvencu karaktera.
+1. Otvorite `declarations.h` fajl `vim` editorom i postavite kursor na početak prve linije teksta. Pređite u *insertion mode* i dodajte `/*` sekvencu karaktera na početku linije. Napustite *insertion mode* i premjestite kursor na kraj linije korišćenjem jedne komande u okviru *command mode* (nije dozvoljeno koristiti pomjeranje kursora karakter po karakter). Na kraju linije unesite razmak i `*/` sekvencu karaktera.
 2. Premjestite kursor ponovo na početak linije korišćenjem jedne komande u okviru *command mode* (nije dozvoljeno koristiti pomjeranje kursora krakter po karakter). Kao novu prvu liniju unesite `long horn;`.
 3. Sačuvajte napravljene izmjene i izađite iz editora.
 4. Otvorite `pastacode.txt` fajl `vim` editorom. Korišćenjem odgovarajuće komande, postavite kursor na mjesto gdje se prvi put pojavljuje riječ `code`. Pomjerajte se kroz fajl tražeći mjesta na kojima se nalazi ista riječ, sve dok ne dođete do kraja fajla. Na sličan način, u povratnom smjeru (od kraja prema početku fajla), krećite se kroz fajl, ovaj put tražeći riječ `software`.
 5. Pronađite gdje se prvi put u tekstu pojavljuje riječ `spaghetti` i zamijenite je sa `macaroni`. Krećite se kroz fajl odgovarajućom komandom i napravite zamjenu riječ `spaghetti` sa `macaroni` pri svakoj pojavi. Koristiti samo jednu komandu.
 6. Obrišite liniju 32 korišćenjem samo jedne komande.
-7. Obrišite linije u opsegu od 36 do zaključno sa 40 korišćenjem samo jedne komande.
+7. Obrišite linije u opsegu od 36 do zaključno sa 39 korišćenjem samo jedne komande.
 
 ## Zadatak 4: Razvoj Linux aplikacija
 Pređite u direktorijum `~/urs-2019/labs/intro/appdev/`.
